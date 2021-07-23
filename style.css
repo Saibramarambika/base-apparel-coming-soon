@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    height:800px ;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsla(0, 52%, 80%, 0.781));
+    color: hsl(0, 0%, 100%);
+}
+  
+  
+.column1 {
+    flex: 50%;
+    height: 300px;
+    padding: 120px;
+    line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 5000;
+}
+
+.black{
+    color: black;
+}
+
+.a{
+    line-height: 100px;
+    border: 100px;
+    color: black;
+}
+
+
+.c{
+    font-weight: 500;
+    color:hsl(0, 46%, 49%) ;
+}
+
+.b{
+    color: hsl(0, 46%, 49%);
+}
+
+h2:before {
+    content: ' \004F';
+    color: rgb(177, 52, 94);
+}
+
+.column2 {
+    flex: 50%;
+    height: 300px;
+    align-content: stretch;
+}
+
+.d{
+    box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.btn{
+    display: inline;
+    border-radius: 20px;
+    width: 70px;
+    height: 45px;
+    padding: 5px 20px;
+    margin-left: -50px;
+    background-image: linear-gradient (135deg, pink );
+    border: none;
+    box-shadow:20px 20px 50px grey; 
+}
+
+#demo{
+    color: red;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px) {
+    .row, .column1  {   
+      flex-direction: column;
+    }
+  }
+
+
+
+
